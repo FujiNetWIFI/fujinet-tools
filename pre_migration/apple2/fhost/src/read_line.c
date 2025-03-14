@@ -28,8 +28,6 @@ void read_line(char *s, uint16_t len)
 
     --len;
     do {
-      gotox(i);
-
       c = cgetc();
 
       if (isprint(c)) {
