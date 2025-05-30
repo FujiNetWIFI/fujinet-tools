@@ -8,12 +8,13 @@ There are two main directories:
 - post_migration - this is a staging area where things are in the middle of a re-organization
 
 
-The classic 'f' tools than manipulate the fujinet are in pre_migration/[platform]
+The classic 'f' tools that manipulate the fujinet are in pre_migration/[platform]
 
 The newer 'n' tools are in post_migration/network/nput|nload|nget
 
-If you don't see a specific ntool for a give platform it does not exist yet.
+If you don't see a specific ftool or ntool for a given platform it does not exist yet.
 
+F is for Fuijinet as the code manages the fujinet device itself. n is for network and the tool does things to files via the FujiNet network device.
 
 Note the device specific directories are old, and source in them is being migrated to the general project folders, e.g. nget, nput.
 
