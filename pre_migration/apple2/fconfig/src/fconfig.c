@@ -19,7 +19,7 @@ AdapterConfigExtended ace;
 
 void main(void)
 {
-    if (get_ostype() >= APPLE_IIIEM)
+    if (get_ostype() == APPLE_IIIEM)
     {
         allow_lowercase(true);
     }
