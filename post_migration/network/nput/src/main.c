@@ -36,7 +36,7 @@ static void get_parms(void)
 int main(int argc, char* argv[])
 {
 #ifdef __APPLE2__
-    if (get_ostype() >= APPLE_IIIEM)
+    if (get_ostype() == APPLE_IIIEM)
         allow_lowercase(1);
 #endif
 
