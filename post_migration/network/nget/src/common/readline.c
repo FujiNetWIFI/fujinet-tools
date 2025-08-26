@@ -6,6 +6,7 @@
 #include <ctype.h>
 #include <conio.h>
 #include <stdio.h>
+#include <string.h>
 
 #include "readline.h"
 
@@ -17,6 +18,10 @@ void readline(char *s)
 {
     unsigned int i = 0;
     char c;
+
+    // Print any existing chars in s, and set i.
+    for (i=0;i<strlen(s);i++)
+      putchar(s[i]);
 
     cursor(1);
 
