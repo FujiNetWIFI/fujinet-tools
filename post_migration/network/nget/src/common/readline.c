@@ -20,9 +20,8 @@ void readline(char *s)
     char c;
 
     // Print any existing chars in s, and set i.
-    for (i=0;i<strlen(s);i++)
-      putchar(s[i]);
-
+    fputs(s,stdout);
+    
     cursor(1);
 
     do {
